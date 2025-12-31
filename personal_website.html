@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+
+ <!-- Profile Picture Slot -->
+  <img 
+   	 src="Personal Website.jpg" 
+   	 alt="Profile photo of Nana Adwoa Fremah Prempeh"
+   	 class="profile-pic"
+	  width="1000"
+   	 height="800"
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nana Adwoa Fremah Prempeh</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-paper: #f6efe7;
+      --bg-section: rgba(255, 249, 242, 0.92);
+      --brown-dark: #3b2a1a;
+      --brown-mid: #8b6b4f;
+      --accent-gold: #c2a46d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: var(--brown-dark);
+      background: var(--bg-paper);
+      background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+      line-height: 1.7;
+    }
+
+    /* Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(246, 239, 231, 0.95);
+      backdrop-filter: blur(6px);
+      padding: 12px 20px;
+      text-align: center;
+      z-index: 100;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--brown-dark);
+      padding: 6px 14px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: var(--accent-gold);
+      color: white;
+    }
+
+    /* Hero */
+    header {
+      text-align: center;
+      padding: 90px 20px 70px;
+      background: linear-gradient(to bottom, #e7d7c2, #f6efe7);
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--brown-mid);
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 16px;
+    }
+
+    /* Sections */
+    section {
+      max-width: 900px;
+      margin: 70px auto;
+      padding: 45px 35px;
+      background: var(--bg-section);
+      border-radius: 24px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      position: relative;
+    }
+
+    section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--accent-gold);
+      display: inline-block;
+      padding-bottom: 6px;
+    }
+
+    .entry {
+      margin-bottom: 22px;
+    }
+
+    .entry strong {
+      font-weight: 600;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin-top: 8px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: #eadbc8;
+      padding: 6px 14px;
+      border-radius: 18px;
+      font-size: 14px;
+    }
+
+    /* Footer / Contact */
+    footer {
+      text-align: center;
+      padding: 50px 20px 60px;
+      color: var(--brown-mid);
+    }
+
+    /* Floating decor (subtle) */
+    .decor {
+      position: absolute;
+      opacity: 0.15;
+      pointer-events: none;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .moon {
+      width: 120px;
+      top: -40px;
+      right: -40px;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 36px; }
+      section { margin: 40px 16px; padding: 30px 22px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#education">Education</a>
+  <a href="#research">Research</a>
+  <a href="#experience">Experience</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#skills">Skills</a>
+  <a href="#honors">Honors</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>Nana Adwoa Fremah Prempeh</h1>
+  <h2>Student Researcher · STEM & Computer Science</h2>
+  <p>Applying computational thinking and data-driven research to solve real-world problems through STEM, leadership, and innovation.</p>
+</header>
+
+<section id="profile">
+  <h3>Profile</h3>
+  <p>
+    Driven high school student researcher with strong interests in computer science, engineering, and applied research.
+    Experienced in Python programming, data analysis, and project-based learning through selective STEM programs and internships.
+    Committed to thoughtful problem-solving, collaboration, and continued academic growth.
+  </p>
+</section>
+
+<section id="education">
+  <h3>Education</h3>
+
+  <div class="entry">
+    <strong>Shrewsbury High School — Shrewsbury, MA</strong><br>
+    Expected Graduation: 2027<br>
+    GPA: 4.2 (Weighted)<br>
+    Relevant Coursework: Computer Science, Advanced STEM Studies, Mathematics
+  </div>
+
+  <div class="entry">
+    <strong>Legacy Girls’ College — Akuse, Ghana</strong><br>
+    2023–2024
+  </div>
+</section>
+
+<section id="research">
+  <h3>Research & Technical Experience</h3>
+
+  <div class="entry">
+    <strong>MIT Beaver Works Summer Institute — Girls Who Can Learn Python</strong><br>
+    Selected participant in a competitive MIT program. Developed advanced Python skills and strengthened computational thinking and collaboration.
+	
+  </div>
+
+  <div class="entry">
+    <strong>FlowMetrics — Independent Research Project</strong><br>
+    Developed a Python-based system to analyze lymphedema data, designed data protocols, and applied computational analysis to healthcare outcomes.
+	Check it out here: <a href="FlowMetrics">https://nana-fp.github.io/Lyphedema-website/</a>
+  </div>
+
+  <div class="entry">
+    <strong>Python & Machine Learning Internship — Horizon Quest</strong><br>
+    Completed applied ML projects, collaborated on data-driven solutions, and was a finalist in the final competition.
+  </div>
+</section>
+
+<section id="experience">
+  <h3>Additional Experience</h3>
+
+  <ul>
+    <li>Computer Science Impact Immersion Internship — collaborative innovation projects</li>
+    <li>Math Internship — instructional support and data interpretation</li>
+    <li>Education Program Intern — EcoTarium (hands-on learning programs)</li>
+  </ul>
+</section>
+
+<section id="leadership">
+  <h3>Leadership & Community Engagement</h3>
+
+  <ul>
+    <li>Student Representative — School Wellness Advisory Committee</li>
+    <li>Founder — African Dance Class Program (Shrewsbury Public Library)</li>
+    <li>Supplies & Budget Lead — Community STEAM Events</li>
+    <li>Math Olympiad Volunteer & Summer Enrichment Camp Counselor</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h3>Core Skills</h3>
+  <div class="skills">
+    <span class="skill">Python Programming</span>
+    <span class="skill">Machine Learning</span>
+    <span class="skill">Data Analysis</span>
+    <span class="skill">Research Design</span>
+    <span class="skill">Project Management</span>
+    <span class="skill">Computational Thinking</span>
+    <span class="skill">Leadership</span>
+    <span class="skill">STEM Mentorship</span>
+    <span class="skill">Cultural Collaboration</span>
+  </div>
+</section>
+
+<section id="honors">
+  <h3>Honors & Achievements</h3>
+  <ul>
+    <li>Finalist — Horizon Quest Machine Learning Competition</li>
+    <li>Founder — African Dance Class Program</li>
+    <li>Ghanaian Ambassador — All the Same Nonprofit</li>
+  </ul>
+</section>
+
+<footer id="contact">
+  <p><strong>Contact</strong></p>
+  <p>nanaadwoafremah100@gmail.com<br>Shrewsbury, Massachusetts</p>
+</footer>
+
+</body>
+</html>

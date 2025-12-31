@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Nana [Last Name]}} \\
+    Student Researcher | Computer Science \& STEM \\
+    Shrewsbury, MA \\
+    Email: yourname@email.com \quad | \quad GitHub/LinkedIn (optional)
+\end{center}
+
+\vspace{0.2cm}
+
+\section*{Profile}
+Curious and driven high school student with strong interests in computer science, engineering, and research. Experienced in Python programming, data analysis, and project-based learning through selective STEM programs and internships. Passionate about applying technology to solve real-world problems.
+
+\section*{Education}
+\textbf{Shrewsbury High School}, Shrewsbury, MA \\
+Expected Graduation: 2027 \\
+GPA: 4.2 (Weighted) \quad | \quad PSAT: 1130 \\
+Relevant Coursework: Computer Science, Advanced STEM Studies, Mathematics
+
+\section*{Research \& Technical Experience}
+
+\textbf{MIT Beaver Works Summer Institute (BWSI)} – Girls Who Can Learn Python \\
+\textit{Massachusetts Institute of Technology (Virtual)} \hfill Oct 2025 -- Dec 2025
+\begin{itemize}[leftmargin=*]
+    \item Selected participant in a competitive MIT STEM program for young women.
+    \item Developed advanced Python skills through project-based instruction and mentorship.
+\end{itemize}
+
+\textbf{FlowMetrics: Data-Driven Lymphedema Research Project} \\
+\textit{Independent Research} \hfill Apr 2025 -- Present
+\begin{itemize}[leftmargin=*]
+    \item Built a Python-based system to track and analyze leg circumference data.
+    \item Designed data collection protocols and applied computational analysis to assess treatment effectiveness.
+\end{itemize}
+
+\textbf{Python \& Machine Learning Internship – Horizon Quest} \hfill Jun 2025 -- Aug 2025
+\begin{itemize}[leftmargin=*]
+    \item Completed applied projects in Python, data analysis, and machine learning.
+    \item Finalist in the program’s final competition.
+\end{itemize}
+
+\section*{Additional Experience}
+
+\textbf{Computer Science Impact Immersion Internship} \hfill Oct 2025 -- Nov 2025 \\
+Contributed to collaborative technology projects focused on innovation and community impact.
+
+\textbf{Education Program Intern}, EcoTarium – Education Department \hfill Dec 2025 -- Present \\
+Assisted with hands-on educational programs, visitor engagement, and program logistics.
+
+\section*{Leadership \& Community Engagement}
+
+\textbf{Student Representative}, School Wellness Advisory Committee (SWAC) \\
+Appointed by the superintendent to represent student voice in district wellness policy discussions.
+
+\textbf{Founder}, African Dance Class Program – Shrewsbury Public Library \hfill Jul 2025 -- Aug 2025 \\
+Designed and led a cultural enrichment program highlighting African heritage.
+
+\section*{Skills}
+Python Programming \quad | \quad Machine Learning \quad | \quad Data Analysis \quad | \quad Research Design \\
+Leadership \& Communication \quad | \quad STEM Education \quad | \quad Cultural Collaboration
+
+\section*{Honors}
+MIT Beaver Works Summer Institute (Selected Participant) \\
+Horizon Quest ML Internship Competition (Finalist) \\
+Founder – African Dance Class Program \\
+Ghanaian Ambassador – All the Same Nonprofit
+
+\end{document}
